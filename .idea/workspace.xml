@@ -1,0 +1,1147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5c3f2a9e-4074-42da-9d25-e311574fc853" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MVC/Model/ObjectsModel/ChickenGroup.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1887">
+              <caret line="131" column="5" selection-start-line="131" selection-start-column="5" selection-end-line="131" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MVC/Model/ObjectsModel/AbtractChickenGroup.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="86" column="28" selection-start-line="86" selection-start-column="28" selection-end-line="86" selection-end-column="28" />
+              <folding>
+                <element signature="e#1314#1332#0" />
+                <element signature="e#3057#3075#0" />
+                <element signature="e#4638#4710#0" />
+                <element signature="e#5475#5502#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/MVC/Controller/GameServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="25" selection-start-line="3" selection-end-line="3" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MVC/View/PaintView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="663">
+              <caret line="146" column="42" selection-start-line="146" selection-start-column="16" selection-end-line="146" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#bullet#0;class#PaintView#0" />
+                <element signature="method#coin#0;class#PaintView#0" />
+                <element signature="method#egg#0;class#PaintView#0" />
+                <element signature="method#gift#0;class#PaintView#0" />
+                <element signature="method#powerup#0;class#PaintView#0" />
+                <element signature="method#message#0;class#PaintView#0" />
+                <element signature="method#chickenGroup#0;class#PaintView#0" />
+                <element signature="method#rocket#0;class#PaintView#0" />
+                <element signature="method#background#0;class#PaintView#0" />
+                <element signature="method#justABox#0;class#PaintView#0" />
+                <element signature="method#userPreviewer#0;class#PaintView#0" />
+                <element signature="method#statusBox#0;class#PaintView#0" />
+                <element signature="method#tempBar#0;class#PaintView#0" />
+                <element signature="method#exp#0;class#PaintView#0" />
+                <element signature="method#button#0;class#PaintView#0" />
+                <element signature="method#textfield#0;class#PaintView#0" />
+                <element signature="method#numberField#0;class#PaintView#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MVC/Controller/GameClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-611">
+              <caret line="146" column="36" selection-start-line="146" selection-start-column="36" selection-end-line="146" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MVC/Model/GameModel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1258">
+              <caret line="81" column="54" selection-start-line="81" selection-start-column="54" selection-end-line="81" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Singleton" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Clie</find>
+      <find>Handler</find>
+      <find>removeCli</find>
+      <find>Main</find>
+      <find>wait</find>
+      <find>host</find>
+      <find>in</find>
+      <find>invo</find>
+      <find>waitForClients</find>
+      <find>new boo</find>
+      <find>getActiveGroup</find>
+      <find>resumeGame</find>
+      <find>save</find>
+      <find>res</find>
+      <find>mainMenu</find>
+      <find>pause</find>
+      <find>dispo</find>
+      <find>resume</find>
+      <find>new Chic</find>
+      <find>dispos</find>
+      <find>dispose</find>
+      <find>Clocka</find>
+      <find>Resources/Pics/chickens/</find>
+      <find>resumeGa</find>
+      <find>getClocl</find>
+      <find>new Ch</find>
+      <find>check</find>
+      <find>layE</find>
+      <find>waitFor</find>
+      <find>newGa</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>Resources/Pics/chickens/1/</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/MVC/Model/ObjectsModel/Explosion.java" />
+        <option value="$PROJECT_DIR$/../Chicken_Invaders/src/actions/SpaceShipMoves.java" />
+        <option value="$PROJECT_DIR$/src/MVC/Model/ObjectsModel/UserPreviewer.java" />
+        <option value="$PROJECT_DIR$/src/a.java" />
+        <option value="$PROJECT_DIR$/src/SoundTest.java" />
+        <option value="$PROJECT_DIR$/src/testings.java" />
+        <option value="$PROJECT_DIR$/src/MVC/Model/ObjectsModel/TempBar.java" />
+        <option value="$PROJECT_DIR$/src/MVC/Model/ObjectsModel/EggObject.java" />
+        <option value="$PROJECT_DIR$/src/MVC/Model/ObjectsModel/message.java" />
+        <option value="$PROJECT_DIR$/src/MVC/Model/ObjectsModel/Message.java" />
+        <option value="$PROJECT_DIR$/src/MVC/Model/ObjectsModel/MessageObject.java" />
+        <option value="$PROJECT_DIR$/src/MVC/Model/ObjectsModel/gift.java" />
+        <option value="$PROJECT_DIR$/src/MVC/Model/ObjectsModel/PowerUp.java" />
+        <option value="$PROJECT_DIR$/src/MVC/Model/ObjectsModel/bulletTypeGift.java" />
+        <option value="$PROJECT_DIR$/src/MVC/Model/ObjectsModel/Powerup.java" />
+        <option value="$PROJECT_DIR$/src/MVC/Model/ObjectsModel/bulletGift.java" />
+        <option value="$USER_HOME$/Downloads/AP_Sessions-master/src/Streams/IOStreams/ReaderThread.java" />
+        <option value="$PROJECT_DIR$/src/MVC/Controller/ClientController.java" />
+        <option value="$PROJECT_DIR$/src/MVC/Controller/ReadAndWrite.java" />
+        <option value="$PROJECT_DIR$/src/MVC/Controller/ButtonCommands.java" />
+        <option value="$PROJECT_DIR$/src/MVC/Model/Interfaces/MoosInCheckable.java" />
+        <option value="$PROJECT_DIR$/src/MVC/Model/ObjectsModel/GameObject.java" />
+        <option value="$PROJECT_DIR$/src/MVC/Model/ObjectsModel/JustABoxObject.java" />
+        <option value="$PROJECT_DIR$/src/MVC/Model/ObjectsModel/BulletObject.java" />
+        <option value="$PROJECT_DIR$/src/MVC/Model/ObjectsModel/RocketObject.java" />
+        <option value="$PROJECT_DIR$/src/Commens/Fonts.java" />
+        <option value="$PROJECT_DIR$/src/MainGame.java" />
+        <option value="$PROJECT_DIR$/src/SoundPlayer.java" />
+        <option value="$PROJECT_DIR$/src/MVC/Controller/GameController.java" />
+        <option value="$PROJECT_DIR$/src/player.java" />
+        <option value="$PROJECT_DIR$/src/AudioFilePlayer.java" />
+        <option value="$PROJECT_DIR$/src/MVC/View/SoundPlayer.java" />
+        <option value="$PROJECT_DIR$/src/MVC/Model/ObjectsModel/CursorObject.java" />
+        <option value="$PROJECT_DIR$/src/Commens/Constants.java" />
+        <option value="$PROJECT_DIR$/src/MVC/View/GameView.java" />
+        <option value="$PROJECT_DIR$/src/MVC/View/jPanel.java" />
+        <option value="$PROJECT_DIR$/src/MVC/Model/ObjectsModel/StatusBox.java" />
+        <option value="$PROJECT_DIR$/src/MVC/Model/ObjectsModel/CoinObject.java" />
+        <option value="$PROJECT_DIR$/src/MVC/Model/ObjectsModel/NumberFieldObject.java" />
+        <option value="$PROJECT_DIR$/data.data" />
+        <option value="$PROJECT_DIR$/src/MVC/Model/User.java" />
+        <option value="$PROJECT_DIR$/src/MVC/Model/ObjectsModel/TextfieldObject.java" />
+        <option value="$PROJECT_DIR$/src/MVC/Model/ObjectsModel/ButtonObject.java" />
+        <option value="$PROJECT_DIR$/src/MVC/Model/GameModel.java" />
+        <option value="$PROJECT_DIR$/src/Commens/BufferedFiles.java" />
+        <option value="$PROJECT_DIR$/src/MVC/View/PaintView.java" />
+        <option value="$PROJECT_DIR$/src/MVC/Controller/GameClient.java" />
+        <option value="$PROJECT_DIR$/src/MVC/Model/ObjectsModel/ChickenObject.java" />
+        <option value="$PROJECT_DIR$/src/MVC/Model/ObjectsModel/ChickenGroup.java" />
+        <option value="$PROJECT_DIR$/src/MVC/Model/ObjectsModel/AbtractChickenGroup.java" />
+        <option value="$PROJECT_DIR$/src/MVC/Controller/GameServer.java" />
+      </list>
+    </option>
+  </component>
+  <component name="InstancesTracker">
+    <option name="classes">
+      <map>
+        <entry key="java.util.concurrent.ConcurrentHashMap$Node" value="CREATION" />
+      </map>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ChickenInvaders2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ChickenInvaders2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ChickenInvaders2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ChickenInvaders2" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ChickenInvaders2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ChickenInvaders2" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+              <item name="Pics" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ChickenInvaders2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ChickenInvaders2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ChickenInvaders2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ChickenInvaders2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Commens" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ChickenInvaders2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ChickenInvaders2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="MVC" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ChickenInvaders2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ChickenInvaders2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="MVC" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ChickenInvaders2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ChickenInvaders2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="MVC" type="462c0819:PsiDirectoryNode" />
+              <item name="Model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ChickenInvaders2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ChickenInvaders2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="MVC" type="462c0819:PsiDirectoryNode" />
+              <item name="Model" type="462c0819:PsiDirectoryNode" />
+              <item name="ObjectsModel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ChickenInvaders2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ChickenInvaders2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="MVC" type="462c0819:PsiDirectoryNode" />
+              <item name="View" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="MVC.Model.ObjectsModel" />
+      <recent name="" />
+      <recent name="MCV.Model" />
+      <recent name="MCV.Controller.Objects" />
+      <recent name="MCV.Controller.Objects.Buttons" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.MainGame">
+    <configuration name="AudioFilePlayer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AudioFilePlayer" />
+      <module name="ChickenInvaders2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainGame" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainGame" />
+      <module name="ChickenInvaders2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="player" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="player" />
+      <module name="ChickenInvaders2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="soundPlayer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MVC.View.soundPlayer" />
+      <module name="ChickenInvaders2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MVC.View.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testings" />
+      <module name="ChickenInvaders2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.AudioFilePlayer" />
+      <item itemvalue="Application.MainGame" />
+      <item itemvalue="Application.player" />
+      <item itemvalue="Application.soundPlayer" />
+      <item itemvalue="Application.testings" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MainGame" />
+        <item itemvalue="Application.player" />
+        <item itemvalue="Application.AudioFilePlayer" />
+        <item itemvalue="Application.testings" />
+        <item itemvalue="Application.soundPlayer" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5c3f2a9e-4074-42da-9d25-e311574fc853" name="Default Changelist" comment="" />
+      <created>1558878403370</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1558878403370</updated>
+      <workItem from="1558878404827" duration="550000" />
+      <workItem from="1558951133100" duration="1995000" />
+      <workItem from="1558955418115" duration="43000" />
+      <workItem from="1558955528062" duration="107000" />
+      <workItem from="1558957962885" duration="255000" />
+      <workItem from="1558958228511" duration="242000" />
+      <workItem from="1558958549023" duration="144000" />
+      <workItem from="1558966065623" duration="385000" />
+      <workItem from="1558966485407" duration="1919000" />
+      <workItem from="1558968718832" duration="3098000" />
+      <workItem from="1558975240016" duration="92000" />
+      <workItem from="1558975680690" duration="837000" />
+      <workItem from="1558976589354" duration="1950000" />
+      <workItem from="1558978756628" duration="1022000" />
+      <workItem from="1558983970778" duration="641000" />
+      <workItem from="1558984669437" duration="2198000" />
+      <workItem from="1559039741258" duration="448000" />
+      <workItem from="1559041934624" duration="391000" />
+      <workItem from="1559081900372" duration="4396000" />
+      <workItem from="1559088233129" duration="299000" />
+      <workItem from="1559088882699" duration="5122000" />
+      <workItem from="1559120054422" duration="6693000" />
+      <workItem from="1559126885732" duration="907000" />
+      <workItem from="1559135139389" duration="1990000" />
+      <workItem from="1559143571406" duration="167000" />
+      <workItem from="1559143777327" duration="8461000" />
+      <workItem from="1559157197232" duration="8739000" />
+      <workItem from="1559166407166" duration="4468000" />
+      <workItem from="1559203539287" duration="2062000" />
+      <workItem from="1559207311904" duration="735000" />
+      <workItem from="1559305410696" duration="7132000" />
+      <workItem from="1559327333099" duration="4288000" />
+      <workItem from="1559331781605" duration="707000" />
+      <workItem from="1559369295876" duration="172000" />
+      <workItem from="1559369647510" duration="2858000" />
+      <workItem from="1559381336652" duration="950000" />
+      <workItem from="1559390187289" duration="854000" />
+      <workItem from="1559395227375" duration="6004000" />
+      <workItem from="1559411735483" duration="177000" />
+      <workItem from="1559415573970" duration="6249000" />
+      <workItem from="1559422132609" duration="5363000" />
+      <workItem from="1559427631045" duration="3122000" />
+      <workItem from="1559459023836" duration="184000" />
+      <workItem from="1559459238290" duration="465000" />
+      <workItem from="1559460136116" duration="6192000" />
+      <workItem from="1559478028012" duration="4250000" />
+      <workItem from="1559483278632" duration="588000" />
+      <workItem from="1559494346475" duration="509000" />
+      <workItem from="1559494952618" duration="8649000" />
+      <workItem from="1559507701708" duration="3347000" />
+      <workItem from="1559511164543" duration="18561000" />
+      <workItem from="1559562570890" duration="4916000" />
+      <workItem from="1559567579676" duration="1666000" />
+      <workItem from="1559590021109" duration="18289000" />
+      <workItem from="1559611999233" duration="2386000" />
+      <workItem from="1559638617775" duration="4027000" />
+      <workItem from="1559642760058" duration="11000" />
+      <workItem from="1559642783084" duration="162000" />
+      <workItem from="1559642983516" duration="20888000" />
+      <workItem from="1559665545094" duration="3507000" />
+      <workItem from="1559687838581" duration="847000" />
+      <workItem from="1559688775488" duration="340000" />
+      <workItem from="1559727533299" duration="12000" />
+      <workItem from="1559727759221" duration="5058000" />
+      <workItem from="1559747686764" duration="173000" />
+      <workItem from="1559761238846" duration="90000" />
+      <workItem from="1559883970939" duration="85000" />
+      <workItem from="1559932419280" duration="24593000" />
+      <workItem from="1559989098146" duration="4285000" />
+      <workItem from="1560000385879" duration="195000" />
+      <workItem from="1560000695947" duration="362000" />
+      <workItem from="1560001081423" duration="52000" />
+      <workItem from="1560001337057" duration="17190000" />
+      <workItem from="1560019798145" duration="1370000" />
+      <workItem from="1560021307643" duration="416000" />
+      <workItem from="1560021729918" duration="10875000" />
+      <workItem from="1560080300443" duration="737000" />
+      <workItem from="1560097912371" duration="15618000" />
+      <workItem from="1560115014738" duration="61000" />
+      <workItem from="1560115106631" duration="3169000" />
+      <workItem from="1560191556556" duration="501000" />
+      <workItem from="1561044835887" duration="204000" />
+      <workItem from="1561106577142" duration="117000" />
+      <workItem from="1561107925520" duration="1828000" />
+      <workItem from="1561110409432" duration="6016000" />
+      <workItem from="1561124838355" duration="353000" />
+      <workItem from="1561128051315" duration="10508000" />
+      <workItem from="1561147926154" duration="1385000" />
+      <workItem from="1561149565683" duration="7000" />
+      <workItem from="1561150267224" duration="1062000" />
+      <workItem from="1561176311745" duration="5310000" />
+      <workItem from="1561183833400" duration="478000" />
+      <workItem from="1561185996595" duration="254000" />
+      <workItem from="1561191323445" duration="140000" />
+      <workItem from="1561193547467" duration="53000" />
+      <workItem from="1561199486658" duration="30000" />
+      <workItem from="1561200121376" duration="4149000" />
+      <workItem from="1561208379688" duration="1000" />
+      <workItem from="1561209602500" duration="61000" />
+      <workItem from="1561210965614" duration="95000" />
+      <workItem from="1561212847952" duration="71000" />
+      <workItem from="1561213490090" duration="5166000" />
+      <workItem from="1561225064191" duration="577000" />
+      <workItem from="1561303755491" duration="2373000" />
+      <workItem from="1561313552765" duration="3462000" />
+      <workItem from="1561317356707" duration="828000" />
+      <workItem from="1561369246183" duration="451000" />
+      <workItem from="1561374059718" duration="21048000" />
+      <workItem from="1561407337745" duration="943000" />
+      <workItem from="1561408287965" duration="1000" />
+      <workItem from="1561408841308" duration="1790000" />
+      <workItem from="1561440271285" duration="9296000" />
+      <workItem from="1561453411580" duration="876000" />
+      <workItem from="1561458097846" duration="8320000" />
+      <workItem from="1561489581028" duration="4234000" />
+      <workItem from="1561552993785" duration="210000" />
+      <workItem from="1561557270325" duration="4859000" />
+      <workItem from="1561565338822" duration="12728000" />
+      <workItem from="1561585522121" duration="2174000" />
+      <workItem from="1561633528625" duration="26607000" />
+      <workItem from="1561750801325" duration="4000" />
+      <workItem from="1561750816569" duration="18753000" />
+      <workItem from="1561843084125" duration="2397000" />
+      <workItem from="1561860526248" duration="157000" />
+      <workItem from="1561911781874" duration="91000" />
+      <workItem from="1561997780085" duration="12220000" />
+      <workItem from="1562013905328" duration="927000" />
+      <workItem from="1562088384903" duration="2642000" />
+      <workItem from="1562267089379" duration="3000" />
+      <workItem from="1562420071879" duration="544000" />
+      <workItem from="1562606148998" duration="1192000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="459853000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21030043" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32386363" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.26506025" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49928468" weight="0.39518073" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32409638" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32954547" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5007153" side_tool="true" weight="0.26506025" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32168674" />
+      <window_info anchor="bottom" id="Duplicates" order="13" weight="0.328125" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24964234" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.3297568" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" weight="0.3297568" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="client" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>client</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.desktop/sun/java2d/opengl/OGLBlitLoops.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="469" selection-start-line="469" selection-end-line="469" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.desktop/sun/java2d/pipe/DrawImage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="1080" selection-start-line="1080" selection-end-line="1080" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.desktop/sun/java2d/pipe/ValidatePipe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="218" selection-start-line="218" selection-end-line="218" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.desktop/sun/java2d/SunGraphics2D.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="3390" selection-start-line="3390" selection-end-line="3390" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.desktop/javax/swing/RepaintManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="1416" selection-start-line="1416" selection-end-line="1416" />
+          <folding>
+            <element signature="e#46989#46990#0" expanded="true" />
+            <element signature="e#47051#47052#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.desktop/sun/font/FreetypeFontScaler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="232" column="24" selection-start-line="232" selection-start-column="24" selection-end-line="232" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.desktop/javax/swing/JComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="5208" selection-start-line="5208" selection-end-line="5208" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MVC/Model/ObjectsModel/RocketObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model2.rtf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="30" column="11" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Commens/Fonts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MVC/Model/ObjectsModel/TempBar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="13" column="5" selection-start-line="10" selection-start-column="21" selection-end-line="13" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/security/AccessController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="806" column="47" selection-start-line="806" selection-start-column="47" selection-end-line="806" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" column="42" lean-forward="true" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/concurrent/ConcurrentHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="630" selection-start-line="630" selection-end-line="630" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/net/SocketInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="92" column="23" selection-start-line="92" selection-start-column="23" selection-end-line="92" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AudioFilePlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="29" column="32" lean-forward="true" selection-start-column="2" selection-end-line="161" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="83" column="50" lean-forward="true" selection-start-column="2" selection-end-line="97" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MVC/Controller/GameController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#696#697#0" expanded="true" />
+            <element signature="e#745#746#0" expanded="true" />
+            <element signature="e#947#948#0" expanded="true" />
+            <element signature="e#979#980#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Cloneable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="49" column="25" lean-forward="true" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MVC/Model/ObjectsModel/CursorObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1584#1585#0" expanded="true" />
+            <element signature="e#1631#1632#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.desktop/java/awt/Frame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="137" column="13" selection-start-line="137" selection-start-column="13" selection-end-line="137" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.desktop/javax/swing/JFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="123" column="33" selection-start-line="123" selection-start-column="33" selection-end-line="123" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.desktop/com/apple/eawt/FullScreenUtilities.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="64" column="37" selection-start-line="64" selection-start-column="37" selection-end-line="64" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MVC/View/SoundPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.desktop/com/apple/eawt/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="418" column="62" lean-forward="true" selection-start-line="418" selection-start-column="62" selection-end-line="418" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MVC/Model/ObjectsModel/NumberFieldObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="56" column="43" selection-start-line="56" selection-start-column="43" selection-end-line="56" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model.rtf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data.data">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="128" selection-start-column="128" selection-end-column="128" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MVC/Model/ObjectsModel/CoinObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="47" column="46" selection-start-line="47" selection-start-column="46" selection-end-line="47" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MVC/Model/ObjectsModel/StatusBox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="44" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MVC/View/GameView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="41" column="83" selection-start-line="41" selection-start-column="83" selection-end-line="41" selection-end-column="83" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Commens/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MVC/Model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="115" column="22" selection-start-line="115" selection-start-column="22" selection-end-line="115" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MVC/Controller/ButtonCommands.java" />
+    <entry file="file://$PROJECT_DIR$/src/MVC/Model/ObjectsModel/TextfieldObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <element signature="method#updateText#0;class#TextfieldObject#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="351" column="29" selection-start-line="351" selection-start-column="29" selection-end-line="351" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MVC/View/jPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="87" selection-start-line="87" selection-end-line="87" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MVC/Model/Interfaces/Clockable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="456" column="13" selection-start-line="456" selection-start-column="13" selection-end-line="456" selection-end-column="13" />
+          <folding>
+            <element signature="e#10596#10597#0" expanded="true" />
+            <element signature="e#10623#10624#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Commens/BufferedFiles.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="129" column="32" lean-forward="true" selection-start-line="129" selection-start-column="32" selection-end-line="129" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#rotate_Image_By_rad#0;class#BufferedFiles#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="299" column="30" selection-start-line="299" selection-start-column="30" selection-end-line="299" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MVC/Model/ObjectsModel/BulletObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MVC/Model/ObjectsModel/ButtonObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MVC/Model/ObjectsModel/ChickenObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+          <folding>
+            <element signature="e#2652#2653#0" expanded="true" />
+            <element signature="e#2714#2715#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MVC/Model/ObjectsModel/GameObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MVC/Model/ObjectsModel/ChickenGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1887">
+          <caret line="131" column="5" selection-start-line="131" selection-start-column="5" selection-end-line="131" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MVC/View/PaintView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="146" column="42" selection-start-line="146" selection-start-column="16" selection-end-line="146" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#bullet#0;class#PaintView#0" />
+            <element signature="method#coin#0;class#PaintView#0" />
+            <element signature="method#egg#0;class#PaintView#0" />
+            <element signature="method#gift#0;class#PaintView#0" />
+            <element signature="method#powerup#0;class#PaintView#0" />
+            <element signature="method#message#0;class#PaintView#0" />
+            <element signature="method#chickenGroup#0;class#PaintView#0" />
+            <element signature="method#rocket#0;class#PaintView#0" />
+            <element signature="method#background#0;class#PaintView#0" />
+            <element signature="method#justABox#0;class#PaintView#0" />
+            <element signature="method#userPreviewer#0;class#PaintView#0" />
+            <element signature="method#statusBox#0;class#PaintView#0" />
+            <element signature="method#tempBar#0;class#PaintView#0" />
+            <element signature="method#exp#0;class#PaintView#0" />
+            <element signature="method#button#0;class#PaintView#0" />
+            <element signature="method#textfield#0;class#PaintView#0" />
+            <element signature="method#numberField#0;class#PaintView#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MVC/Model/GameModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1258">
+          <caret line="81" column="54" selection-start-line="81" selection-start-column="54" selection-end-line="81" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MVC/Model/ObjectsModel/AbtractChickenGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="86" column="28" selection-start-line="86" selection-start-column="28" selection-end-line="86" selection-end-column="28" />
+          <folding>
+            <element signature="e#1314#1332#0" />
+            <element signature="e#3057#3075#0" />
+            <element signature="e#4638#4710#0" />
+            <element signature="e#5475#5502#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MVC/Controller/GameClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-611">
+          <caret line="146" column="36" selection-start-line="146" selection-start-column="36" selection-end-line="146" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MVC/Controller/GameServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="25" selection-start-line="3" selection-end-line="3" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>ChickenInvaders2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>gson-2.8.5</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
