@@ -116,6 +116,11 @@ public class User implements Clockable, Serializable {
         waveToResum=0;
     }
 
+    public User(String username,int score,int wave,int rocket,int life,int bulletType,int powerUp,int coin , boolean resume,int waveToResum,int clock){
+        this.username=username;
+//        resetUser();
+    }
+
     @Override
     public void stepClock() {
         clock++;
@@ -140,5 +145,10 @@ public class User implements Clockable, Serializable {
     @Override
     public boolean dispose() {
         return false;
+    }
+
+    @Override
+    public String toString() {
+        return getUsername()+getClock();
     }
 }

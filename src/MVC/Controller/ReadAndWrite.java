@@ -10,6 +10,7 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.lang.reflect.Type;
+import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -47,6 +48,24 @@ class ReadAndWrite {
         }
     }
 
+    static void WriteUsersToDB(ArrayList<User> users) {
+        try {
+            Connection connection=getConnection();
+            Statement statement = connection.createStatement();
+            statement.executeUpdate("delete from Users where 1");
+            for (User user:users) {
+//                statement.executeUpdate("insert into Users values('john',1,0,0,0,0,0,0,false ,0,0)");
+                statement.executeUpdate("insert into Users values( '"+user.getUsername()+"',"+user.getScore()+","+user.getWave()+","+user.getRocket()+","+user.getLife()+","+user.getBulletType()+","+user.getPowerUp()+","+user.getCoin()+","+user.isResume()+","+user.getWaveToResum()+","+user.getClock()+")");
+//                statement.executeUpdate("insert into Users (username, score, wave,rocket,life,bulletType,powerUp,coin,resume,waveToResume,clock) values ( " +user.getUsername()+","+user.getScore()+","+user.getWave()+","+user.getRocket()+","+user.getLife()+","+user.getBulletType()+","+user.getPowerUp()+","+user.getCoin()+","+user.isResume()+","+user.getWaveToResum()+","+user.getClock()+")");
+            }
+            connection.close();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+
+//        statement.executeUpdate("update courses set course_name = CONCAT(course_name,'-') where course_name like '%s'");
+    }
+
     // Read From File Utility
     static ArrayList<User> ReadUsersFromFile() {
         File dataFile = new File(Constants.dataFileLocation);
@@ -58,6 +77,7 @@ class ReadAndWrite {
             Scanner scanner = new Scanner(dataFile);
             String data=scanner.nextLine();
             Type typeOfListOfUsers = new TypeToken<List<User>>(){}.getType();
+//            return ReadUsersFromDB();
             return new ArrayList<>(gson.fromJson(data, typeOfListOfUsers));
 
         } catch (Exception e) {
@@ -69,8 +89,24 @@ class ReadAndWrite {
         return null;
     }
 
-    static void test(Object model) {
-        System.out.println(gson.toJson(model).getBytes().length);
+    static ArrayList<User> ReadUsersFromDB() {
+        ArrayList<User> users= new ArrayList<>();
+        try {
+            Connection connection=getConnection();
+            Statement statement = connection.createStatement();
+            ResultSet resultSet = statement.executeQuery("select * from Users");
+            while (resultSet.next()){
+                users.add(new User(resultSet.getString(1),resultSet.getInt(2),resultSet.getInt(3),resultSet.getInt(4),resultSet.getInt(5),resultSet.getInt(6),resultSet.getInt(7),resultSet.getInt(8),resultSet.getBoolean(9),resultSet.getInt(10),resultSet.getInt(11)));
+            }
+            connection.close();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return users;
+    }
+
+    private static Connection getConnection() throws SQLException {
+        return DriverManager.getConnection("jdbc:mysql://localhost:3306/chickenInvaders2DB","root","");
     }
 
     private static void log(String s){

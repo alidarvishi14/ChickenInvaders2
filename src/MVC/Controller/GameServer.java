@@ -880,7 +880,8 @@ class GameServer {
         for (User user:model.getUsers()) {
             model.remove(user);
         }
-        model.addUser(ReadAndWrite.ReadUsersFromFile());
+//        model.addUser(ReadAndWrite.ReadUsersFromFile());
+        model.addUser(ReadAndWrite.ReadUsersFromDB());
     }
 
 //    public void setPlayerToShow(int playerToShow){
@@ -888,7 +889,8 @@ class GameServer {
 //    }
 
     private void saveDataFromModel(){
-        ReadAndWrite.WriteUsersToFile(model.getUsers());
+//        ReadAndWrite.WriteUsersToFile(model.getUsers());
+        ReadAndWrite.WriteUsersToDB(model.getUsers());
     }
 
     private ChickenGroup newChickenGroup(){

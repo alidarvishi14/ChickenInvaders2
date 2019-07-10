@@ -29,11 +29,6 @@ public class GameView {
         frame.setLocationRelativeTo(null);
         jPanel panel=new jPanel(controller,frame);
 
-        //make Cursor invisible
-        Toolkit toolkit = Toolkit.getDefaultToolkit();
-        Cursor blank = toolkit.createCustomCursor(new BufferedImage(32, 32, BufferedImage.TYPE_INT_ARGB), new Point(0, 0), "");
-        frame.setCursor(blank);
-
         // Create views swing UI components
         frame.add(panel);
         frame.repaint();
@@ -41,6 +36,14 @@ public class GameView {
         com.apple.eawt.FullScreenUtilities.setWindowCanFullScreen(frame,true);
         com.apple.eawt.Application.getApplication().requestToggleFullScreen(frame);
         com.apple.eawt.FullScreenUtilities.setWindowCanFullScreen(frame,true);
+
+
+        //make Cursor invisible
+        Toolkit toolkit = Toolkit.getDefaultToolkit();
+        Cursor blank = toolkit.createCustomCursor(new BufferedImage(32, 32, BufferedImage.TYPE_INT_ARGB), new Point(0, 0), "");
+        frame.setCursor(blank);
+
+
 //        com.apple.eawt.Application.getApplication().requestToggleFullScreen(frame);
 //        frame.setSize(100,10);
 

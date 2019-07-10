@@ -13,8 +13,14 @@ class jPanel extends JPanel {
     private GameController controller;
     private SoundPlayer soundPlayer;
     private JFrame frame;
+//    private Cursor blank;
     jPanel(GameController controller,JFrame frame){
         super();
+
+//        //make Cursor invisible
+//        Toolkit toolkit = Toolkit.getDefaultToolkit();
+//        blank = toolkit.createCustomCursor(new BufferedImage(64, 64, BufferedImage.TYPE_4BYTE_ABGR), new Point(0, 0), "");
+
         soundPlayer=new SoundPlayer();
         setFocusable(true);
         requestFocus();
@@ -66,6 +72,7 @@ class jPanel extends JPanel {
 
     public void paint(Graphics g) {
         super.paint(g);
+//        setCursor(blank);
         ArrayList<GameObject> objectList = controller.getObjectList();
         for (int i = 1 ; i <= objectList.size(); i++) {
             GameObject object = objectList.get(objectList.size()-i);
