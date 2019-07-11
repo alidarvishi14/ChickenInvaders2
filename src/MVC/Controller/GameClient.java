@@ -119,12 +119,10 @@ class GameClient {
         soundList.clear();
         return strings;
     }
-    //todo reduce Threads
     private void sendModelRequest(){
         while (!socket.isClosed()) {
             synchronized (this) {
                 try {
-//                    objectOutputStream.writeUTF("getObjectList");
                     ArrayList message=new ArrayList();
                     message.add("getObjectList");
                     objectOutputStream.writeObject(message);

@@ -60,7 +60,9 @@ class ReadAndWrite {
             }
             connection.close();
         } catch (SQLException e) {
-            e.printStackTrace();
+            System.out.println("Data base failure");
+//            e.printStackTrace();
+            WriteUsersToFile(users);
         }
 
 //        statement.executeUpdate("update courses set course_name = CONCAT(course_name,'-') where course_name like '%s'");
@@ -84,9 +86,9 @@ class ReadAndWrite {
             log("error load cache from file " + e.toString());
         }
 
-        log("\nCourse Data loaded successfully from file " + Constants.dataFileLocation);
+//        log("\nCourse Data loaded successfully from file " + Constants.dataFileLocation);
 
-        return null;
+        return new ArrayList<>();
     }
 
     static ArrayList<User> ReadUsersFromDB() {
@@ -100,7 +102,9 @@ class ReadAndWrite {
             }
             connection.close();
         } catch (SQLException e) {
-            e.printStackTrace();
+//            e.printStackTrace();
+            System.out.println("Data base failure");
+            users.addAll(ReadUsersFromFile());
         }
         return users;
     }
