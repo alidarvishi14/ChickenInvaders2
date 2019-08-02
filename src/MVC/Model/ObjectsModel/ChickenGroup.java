@@ -6,7 +6,7 @@ import MVC.Model.Interfaces.Clockable;
 import java.io.Serializable;
 import java.util.ArrayList;
 
-public class ChickenGroup extends GameObject implements Clockable , Serializable {
+public class ChickenGroup extends GameObject implements Clockable ,Serializable {
     private int clock;
     private int groupType;
     private int chickenType;
@@ -84,6 +84,7 @@ public class ChickenGroup extends GameObject implements Clockable , Serializable
         return chickenObjects.get(i).getLocation();
     }
 
+    @Override
     public void stepClock(){
         clock++;
         move();

@@ -1,6 +1,7 @@
 package MVC.Model;
 
 import Commens.Constants;
+import MVC.Model.ObjectsModel.AbstractHomeMadeChickenGroup;
 import MVC.Model.Interfaces.Clockable;
 import MVC.Model.ObjectsModel.*;
 
@@ -39,6 +40,7 @@ public class GameModel implements Serializable {
     private final ArrayList<NumberFieldObject> numberFieldObjects = new ArrayList<>();
     //TODO when chicken groups size is big there is a performance problem in program!
     private final ArrayList<ChickenGroup> chickenGroups = new ArrayList<>();
+    private final ArrayList<AbstractHomeMadeChickenGroup> homeMadeGroups = new ArrayList<>();
 //    private int playerToShow=0;
     public int page=0;
     // 0:choose player // 1:menus // 2: game // 3: pause // 4:   // 5:     // 6: waiting for clients to join
@@ -66,6 +68,7 @@ public class GameModel implements Serializable {
             arrayList.addAll(rocketObjects);
             arrayList.addAll(explosions);
             arrayList.addAll(chickenGroups);
+            arrayList.addAll(homeMadeGroups);
 //            if(chickenGroups.size()>justWave)
 //                arrayList.add(chickenGroups.get(justWave));
             arrayList.addAll(coinObjects);
@@ -88,6 +91,7 @@ public class GameModel implements Serializable {
             arrayList.addAll(explosions);
             arrayList.addAll(coinObjects);
             arrayList.addAll(chickenGroups);
+            arrayList.addAll(homeMadeGroups);
 //            if(chickenGroups.size()>justWave)
 //                arrayList.add(chickenGroups.get(justWave));
             arrayList.addAll(messageObjects);
@@ -119,6 +123,9 @@ public class GameModel implements Serializable {
         synchronized (this) {
             ArrayList<ChickenObject> list=new ArrayList<>();
             for (ChickenGroup group:chickenGroups) {
+                list.addAll(group.getChickenObjects());
+            }
+            for (AbstractHomeMadeChickenGroup group:homeMadeGroups) {
                 list.addAll(group.getChickenObjects());
             }
             return list;
@@ -273,6 +280,9 @@ public class GameModel implements Serializable {
             for (ChickenGroup group:chickenGroups) {
                 group.remove(chickenObject);
             }
+            for (AbstractHomeMadeChickenGroup group:homeMadeGroups) {
+                group.remove(chickenObject);
+            }
         }
     }
 
@@ -291,6 +301,12 @@ public class GameModel implements Serializable {
     public void remove(ChickenGroup chickenGroup){
         synchronized (this) {
             chickenGroups.remove(chickenGroup);
+        }
+    }
+
+    public void remove(AbstractHomeMadeChickenGroup chickenGroup){
+        synchronized (this) {
+            homeMadeGroups.remove(chickenGroup);
         }
     }
 
@@ -375,6 +391,7 @@ public class GameModel implements Serializable {
             numberFieldObjects.clear();
             rocketObjects.clear();
             chickenGroups.clear();
+            homeMadeGroups.clear();
             eggObjects.clear();
             coinObjects.clear();
             items.clear();
@@ -416,6 +433,12 @@ public class GameModel implements Serializable {
     public void add(ChickenGroup group){
         synchronized (this) {
             chickenGroups.add(group);
+        }
+    }
+
+    public void add(AbstractHomeMadeChickenGroup group){
+        synchronized (this) {
+            homeMadeGroups.add(group);
         }
     }
 

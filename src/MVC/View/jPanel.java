@@ -58,6 +58,14 @@ class jPanel extends JPanel {
             public void keyPressed(KeyEvent e) {
                 super.keyPressed(e);
                 controller.keyPressed(e.getKeyChar());
+//                if(e.getKeyChar()=='a'){
+//
+//                    try {
+//                        getTheClass();
+//                    } catch (Exception ex) {
+//                        ex.printStackTrace();
+//                    }
+//                }
 //                com.apple.eawt.FullScreenUtilities.setWindowCanFullScreen(frame,true);
 //                com.apple.eawt.Application.getApplication().requestToggleFullScreen(frame);
             }
@@ -98,4 +106,35 @@ class jPanel extends JPanel {
             }
         }
     }
+//    private Class getTheClass() throws Exception {
+//
+//        JFileChooser fileChooser = new JFileChooser();
+//        fileChooser.showOpenDialog(new JFrame());
+//        if (fileChooser.getSelectedFile() != null) {
+//            String path = fileChooser.getSelectedFile().getPath();
+//            System.out.println(path);
+//            String name = fileChooser.getSelectedFile().getName();
+//            System.out.println(name);
+//            for(int i=0;i<path.length();i++){
+//                if(path.charAt(i) == '\\'){
+//                    path = path.substring(0,i)+"/"+path.substring(i+1);
+//                }
+//            }
+//            path = "file:///"+path;
+//            System.out.println(path);
+//            ClassLoader cl = new URLClassLoader(new URL[]{new URL(path)});
+//
+////
+////            // Getting the jar URL which contains target class
+////            URL[] classLoaderUrls = new URL[]{new URL()};
+////
+////            // Create a new URLClassLoader
+////            URLClassLoader urlClassLoader = new URLClassLoader(classLoaderUrls);
+//
+//
+//            return cl.loadClass(name.substring(0, name.length() - 6));
+////                gameServer.getNewMonstersClasses().add(monsterClass);
+//        }
+//        return null;
+//    }
 }

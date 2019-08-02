@@ -1,19 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5c3f2a9e-4074-42da-9d25-e311574fc853" name="Default Changelist" comment="DataBase feature added">
+    <list default="true" id="5c3f2a9e-4074-42da-9d25-e311574fc853" name="Default Changelist" comment="catch database error and accessing to data.data file when database is not reachable">
+      <change afterPath="$PROJECT_DIR$/homeMadeBoss.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homeMadeGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MVC/Model/ObjectsModel/AbstractHomeMadeChickenGroup.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data.data" beforeDir="false" afterPath="$PROJECT_DIR$/data.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ChickenInvaders2/MVC/Controller/GameClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChickenInvaders2/MVC/Controller/GameClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ChickenInvaders2/MVC/Controller/GameServer$ClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChickenInvaders2/MVC/Controller/GameServer$ClientHandler.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ChickenInvaders2/MVC/Controller/GameServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChickenInvaders2/MVC/Controller/GameServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChickenInvaders2/MVC/Controller/ReadAndWrite$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChickenInvaders2/MVC/Controller/ReadAndWrite$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChickenInvaders2/MVC/Controller/ReadAndWrite.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChickenInvaders2/MVC/Controller/ReadAndWrite.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChickenInvaders2/MVC/Model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChickenInvaders2/MVC/Model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChickenInvaders2/MVC/View/GameView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChickenInvaders2/MVC/View/GameView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChickenInvaders2/MVC/View/jPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChickenInvaders2/MVC/View/jPanel$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChickenInvaders2/MVC/View/jPanel$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChickenInvaders2/MVC/View/jPanel$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ChickenInvaders2/MVC/Model/GameModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChickenInvaders2/MVC/Model/GameModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ChickenInvaders2/MVC/Model/ObjectsModel/AbtractChickenGroup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ChickenInvaders2/MVC/Model/ObjectsModel/ChickenGroup.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChickenInvaders2/MVC/Model/ObjectsModel/ChickenGroup.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ChickenInvaders2/MVC/View/jPanel$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChickenInvaders2/MVC/View/jPanel$3.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ChickenInvaders2/MVC/View/jPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChickenInvaders2/MVC/View/jPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MVC/Controller/GameClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MVC/Controller/GameClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MVC/Controller/GameServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MVC/Controller/GameServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MVC/Controller/ReadAndWrite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MVC/Controller/ReadAndWrite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MVC/Model/GameModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MVC/Model/GameModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MVC/Model/ObjectsModel/AbtractChickenGroup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MVC/Model/ObjectsModel/ChickenGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MVC/Model/ObjectsModel/ChickenGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MVC/View/jPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MVC/View/jPanel.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,8 +54,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MVC/Controller/GameServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6052">
-              <caret line="370" column="34" selection-start-line="370" selection-start-column="34" selection-end-line="370" selection-end-column="34" />
+            <state relative-caret-position="187">
+              <caret line="144" column="28" selection-start-line="144" selection-start-column="28" selection-end-line="144" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -57,10 +64,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MVC/View/jPanel.java">
+        <entry file="file://$PROJECT_DIR$/src/MVC/Model/ObjectsModel/AbstractHomeMadeChickenGroup.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+            <state relative-caret-position="119">
+              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="18" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -69,26 +76,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MVC/View/GameView.java">
+        <entry file="file://$PROJECT_DIR$/homeMadeGroup.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="41" column="54" selection-start-line="41" selection-start-column="54" selection-end-line="41" selection-end-column="54" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MVC/Model/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1700">
-              <caret line="151" column="40" selection-start-line="151" selection-start-column="40" selection-end-line="151" selection-end-column="40" />
-              <folding>
-                <element signature="e#2864#2865#0" expanded="true" />
-                <element signature="e#2911#2912#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="867">
+              <caret line="55" column="23" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -96,46 +87,97 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MVC/Controller/ReadAndWrite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="89" column="33" lean-forward="true" selection-start-line="89" selection-start-column="33" selection-end-line="89" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MVC/Controller/GameController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+            <state relative-caret-position="-146">
+              <caret line="58" column="36" selection-start-line="58" selection-start-column="12" selection-end-line="58" selection-end-column="36" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#947#948#0" expanded="true" />
-                <element signature="e#995#996#0" expanded="true" />
+                <element signature="e#4981#4982#0" expanded="true" />
+                <element signature="e#5018#5019#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MVC/Controller/GameClient.java">
+        <entry file="file://$PROJECT_DIR$/src/MVC/Controller/testtt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1955">
-              <caret line="122" column="36" selection-start-line="122" selection-start-column="36" selection-end-line="122" selection-end-column="36" />
+            <state relative-caret-position="319">
+              <caret line="64" column="22" lean-forward="true" selection-end-line="130" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/homeMadeBoss.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1071">
+              <caret line="79" column="27" selection-start-line="79" selection-start-column="27" selection-end-line="79" selection-end-column="27" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1996#1997#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MVC/Model/ObjectsModel/Explosion.java">
+        <entry file="file://$PROJECT_DIR$/src/MVC/Model/ObjectsModel/ChickenGroup.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+            <state relative-caret-position="731">
+              <caret line="45" column="12" selection-start-line="45" selection-start-column="12" selection-end-line="48" selection-end-column="32" />
               <folding>
-                <element signature="e#198#199#0" expanded="true" />
-                <element signature="e#264#265#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#2860#2861#0" expanded="true" />
+                <element signature="e#2918#2919#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MVC/Model/GameModel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="7361">
+              <caret line="441" column="8" selection-start-line="441" selection-start-column="8" selection-end-line="441" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MVC/View/jPanel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2480#2481#0" expanded="true" />
+                <element signature="e#2532#2533#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MVC/View/PaintView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="782">
+              <caret line="60" column="13" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#bullet#0;class#PaintView#0" />
+                <element signature="method#coin#0;class#PaintView#0" />
+                <element signature="method#egg#0;class#PaintView#0" />
+                <element signature="method#gift#0;class#PaintView#0" />
+                <element signature="method#powerup#0;class#PaintView#0" />
+                <element signature="method#message#0;class#PaintView#0" />
+                <element signature="method#rocket#0;class#PaintView#0" />
+                <element signature="method#background#0;class#PaintView#0" />
+                <element signature="method#justABox#0;class#PaintView#0" />
+                <element signature="method#userPreviewer#0;class#PaintView#0" />
+                <element signature="method#statusBox#0;class#PaintView#0" />
+                <element signature="method#tempBar#0;class#PaintView#0" />
+                <element signature="method#exp#0;class#PaintView#0" />
+                <element signature="method#button#0;class#PaintView#0" />
+                <element signature="method#textfield#0;class#PaintView#0" />
+                <element signature="method#numberField#0;class#PaintView#0" />
               </folding>
             </state>
           </provider>
@@ -154,19 +196,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Clie</find>
-      <find>Handler</find>
-      <find>removeCli</find>
-      <find>Main</find>
-      <find>wait</find>
-      <find>host</find>
-      <find>in</find>
-      <find>invo</find>
-      <find>waitForClients</find>
-      <find>new boo</find>
-      <find>getActiveGroup</find>
-      <find>resumeGame</find>
-      <find>save</find>
       <find>res</find>
       <find>mainMenu</find>
       <find>pause</find>
@@ -184,6 +213,19 @@
       <find>layE</find>
       <find>waitFor</find>
       <find>newGa</find>
+      <find>key</find>
+      <find>getT</find>
+      <find>getThe</find>
+      <find>public</find>
+      <find>getChickenLocation</find>
+      <find>getChickenObjects</find>
+      <find>getChickenObjects()</find>
+      <find>getChickenObjectsize()</find>
+      <find>remove</find>
+      <find>getGroupType</find>
+      <find>getChickenType</find>
+      <find>Alarm</find>
+      <find>getFrame</find>
     </findStrings>
     <replaceStrings>
       <replace>Resources/Pics/chickens/1/</replace>
@@ -195,12 +237,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../Chicken_Invaders/src/actions/SpaceShipMoves.java" />
-        <option value="$PROJECT_DIR$/src/MVC/Model/ObjectsModel/UserPreviewer.java" />
-        <option value="$PROJECT_DIR$/src/a.java" />
-        <option value="$PROJECT_DIR$/src/SoundTest.java" />
-        <option value="$PROJECT_DIR$/src/testings.java" />
-        <option value="$PROJECT_DIR$/src/MVC/Model/ObjectsModel/TempBar.java" />
         <option value="$PROJECT_DIR$/src/MVC/Model/ObjectsModel/EggObject.java" />
         <option value="$PROJECT_DIR$/src/MVC/Model/ObjectsModel/message.java" />
         <option value="$PROJECT_DIR$/src/MVC/Model/ObjectsModel/Message.java" />
@@ -233,18 +269,24 @@
         <option value="$PROJECT_DIR$/data.data" />
         <option value="$PROJECT_DIR$/src/MVC/Model/ObjectsModel/TextfieldObject.java" />
         <option value="$PROJECT_DIR$/src/MVC/Model/ObjectsModel/ButtonObject.java" />
-        <option value="$PROJECT_DIR$/src/MVC/Model/GameModel.java" />
         <option value="$PROJECT_DIR$/src/Commens/BufferedFiles.java" />
         <option value="$PROJECT_DIR$/src/MVC/View/PaintView.java" />
         <option value="$PROJECT_DIR$/src/MVC/Model/ObjectsModel/ChickenObject.java" />
-        <option value="$PROJECT_DIR$/src/MVC/Model/ObjectsModel/ChickenGroup.java" />
         <option value="$PROJECT_DIR$/src/MVC/Model/ObjectsModel/AbtractChickenGroup.java" />
         <option value="$PROJECT_DIR$/src/MVC/Controller/tempr.java" />
         <option value="$PROJECT_DIR$/src/MVC/Model/User.java" />
-        <option value="$PROJECT_DIR$/src/MVC/Controller/GameServer.java" />
-        <option value="$PROJECT_DIR$/src/MVC/View/jPanel.java" />
         <option value="$PROJECT_DIR$/src/MVC/View/GameView.java" />
         <option value="$PROJECT_DIR$/src/MVC/Controller/GameClient.java" />
+        <option value="$PROJECT_DIR$/src/MVC/View/jPanel.java" />
+        <option value="$PROJECT_DIR$/src/MVC/Model/ObjectsModel/ChickenGroup.java" />
+        <option value="$PROJECT_DIR$/src/MVC/Model/GameModel.java" />
+        <option value="$PROJECT_DIR$/src/MVC/Model/Interfaces/ChickenGroupInterface.java" />
+        <option value="$PROJECT_DIR$/src/MVC/Model/Interfaces/AbstractHomeMadeChickenGroup.java" />
+        <option value="$PROJECT_DIR$/src/MVC/Model/ObjectsModel/AbstractHomeMadeChickenGroup.java" />
+        <option value="$PROJECT_DIR$/src/MVC/Controller/GameServer.java" />
+        <option value="$PROJECT_DIR$/player.java" />
+        <option value="$PROJECT_DIR$/homeMadeGroup.java" />
+        <option value="$PROJECT_DIR$/src/MVC/Controller/testtt.java" />
         <option value="$PROJECT_DIR$/src/MVC/Controller/ReadAndWrite.java" />
       </list>
     </option>
@@ -263,7 +305,7 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1440" />
+    <option name="width" value="714" />
     <option name="height" value="900" />
   </component>
   <component name="ProjectView">
@@ -271,7 +313,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -283,12 +324,6 @@
               <item name="ChickenInvaders2" type="b2602c69:ProjectViewProjectNode" />
               <item name="ChickenInvaders2" type="462c0819:PsiDirectoryNode" />
               <item name="Resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ChickenInvaders2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ChickenInvaders2" type="462c0819:PsiDirectoryNode" />
-              <item name="Resources" type="462c0819:PsiDirectoryNode" />
-              <item name="Pics" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ChickenInvaders2" type="b2602c69:ProjectViewProjectNode" />
@@ -319,27 +354,13 @@
               <item name="ChickenInvaders2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="MVC" type="462c0819:PsiDirectoryNode" />
-              <item name="Model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ChickenInvaders2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ChickenInvaders2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="MVC" type="462c0819:PsiDirectoryNode" />
-              <item name="Model" type="462c0819:PsiDirectoryNode" />
-              <item name="ObjectsModel" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ChickenInvaders2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ChickenInvaders2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="MVC" type="462c0819:PsiDirectoryNode" />
               <item name="View" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -351,6 +372,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -363,11 +385,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="MVC.Model.Interfaces" />
       <recent name="MVC.Model.ObjectsModel" />
       <recent name="" />
       <recent name="MCV.Model" />
       <recent name="MCV.Controller.Objects" />
-      <recent name="MCV.Controller.Objects.Buttons" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -586,7 +611,15 @@
       <workItem from="1562772485289" duration="889000" />
       <workItem from="1562775790771" duration="336000" />
       <workItem from="1562776142313" duration="7798000" />
-      <workItem from="1562862017499" duration="326000" />
+      <workItem from="1562862017499" duration="1134000" />
+      <workItem from="1563165108453" duration="1884000" />
+      <workItem from="1563177810536" duration="534000" />
+      <workItem from="1563372871250" duration="171000" />
+      <workItem from="1564421410397" duration="6422000" />
+      <workItem from="1564429760891" duration="1595000" />
+      <workItem from="1564738959939" duration="3329000" />
+      <workItem from="1564746476469" duration="40000" />
+      <workItem from="1564746545032" duration="2779000" />
     </task>
     <task id="LOCAL-00001" summary="DataBase feature added">
       <created>1562783314880</created>
@@ -595,11 +628,18 @@
       <option name="project" value="LOCAL" />
       <updated>1562783314880</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="catch database error and accessing to data.data file when database is not reachable">
+      <created>1562862687931</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1562862687934</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="469233000" />
+    <option name="totallyTimeSpent" value="486795000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -614,7 +654,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22460657" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -623,7 +663,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32386363" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.26506025" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.26506025" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49928468" weight="0.39518073" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -690,8 +730,10 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="DataBase feature added" />
-    <option name="LAST_COMMIT_MESSAGE" value="DataBase feature added" />
+    <MESSAGE value="catch database error and accessing to data.data file when database is not reachable" />
+    <option name="LAST_COMMIT_MESSAGE" value="catch database error and accessing to data.data file when database is not reachable" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -714,38 +756,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/MVC/Model/ObjectsModel/RocketObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model2.rtf" />
-    <entry file="file://$PROJECT_DIR$/src/Commens/Fonts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MVC/Model/ObjectsModel/TempBar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="13" column="5" selection-start-line="10" selection-start-column="21" selection-end-line="13" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/security/AccessController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="806" column="47" selection-start-line="806" selection-start-column="47" selection-end-line="806" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/MainGame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -892,13 +902,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MVC/Model/Interfaces/Clockable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -945,71 +948,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MVC/Model/ObjectsModel/ChickenObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-          <folding>
-            <element signature="e#2652#2653#0" expanded="true" />
-            <element signature="e#2714#2715#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/MVC/Model/ObjectsModel/GameObject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MVC/Model/ObjectsModel/ChickenGroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1955">
-          <caret line="131" column="5" selection-start-line="131" selection-start-column="5" selection-end-line="131" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MVC/Model/ObjectsModel/AbtractChickenGroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="86" column="28" selection-start-line="86" selection-start-column="28" selection-end-line="86" selection-end-column="28" />
-          <folding>
-            <element signature="e#1314#1332#0" />
-            <element signature="e#3057#3075#0" />
-            <element signature="e#4638#4710#0" />
-            <element signature="e#5475#5502#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MVC/View/PaintView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="146" column="42" selection-start-line="146" selection-start-column="16" selection-end-line="146" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#bullet#0;class#PaintView#0" />
-            <element signature="method#coin#0;class#PaintView#0" />
-            <element signature="method#egg#0;class#PaintView#0" />
-            <element signature="method#gift#0;class#PaintView#0" />
-            <element signature="method#powerup#0;class#PaintView#0" />
-            <element signature="method#message#0;class#PaintView#0" />
-            <element signature="method#chickenGroup#0;class#PaintView#0" />
-            <element signature="method#rocket#0;class#PaintView#0" />
-            <element signature="method#background#0;class#PaintView#0" />
-            <element signature="method#justABox#0;class#PaintView#0" />
-            <element signature="method#userPreviewer#0;class#PaintView#0" />
-            <element signature="method#statusBox#0;class#PaintView#0" />
-            <element signature="method#tempBar#0;class#PaintView#0" />
-            <element signature="method#exp#0;class#PaintView#0" />
-            <element signature="method#button#0;class#PaintView#0" />
-            <element signature="method#textfield#0;class#PaintView#0" />
-            <element signature="method#numberField#0;class#PaintView#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1075,43 +1017,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MVC/Model/GameModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="27" column="76" lean-forward="true" selection-start-line="27" selection-start-column="76" selection-end-line="27" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MVC/Controller/GameServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6052">
-          <caret line="370" column="34" selection-start-line="370" selection-start-column="34" selection-end-line="370" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MVC/View/jPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MVC/View/GameView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="41" column="54" selection-start-line="41" selection-start-column="54" selection-end-line="41" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/MVC/Model/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1700">
@@ -1135,16 +1040,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MVC/Controller/GameClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1955">
-          <caret line="122" column="36" selection-start-line="122" selection-start-column="36" selection-end-line="122" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/MVC/Model/ObjectsModel/Explosion.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -1156,10 +1051,164 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/MVC/Controller/GameClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="43" column="46" selection-start-line="43" selection-start-column="46" selection-end-line="43" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MVC/Model/ObjectsModel/ChickenObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding>
+            <element signature="e#2652#2653#0" expanded="true" />
+            <element signature="e#2714#2715#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MVC/View/GameView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-842">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MVC/Model/Interfaces/Clockable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/asir/src/EnemyGroup4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="4" lean-forward="true" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MVC/Model/ObjectsModel/AbtractChickenGroup.java" />
+    <entry file="file://$PROJECT_DIR$/src/MVC/Model/ObjectsModel/AbstractHomeMadeChickenGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="18" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homeMadeGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="55" column="23" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homeMadeBoss.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="79" column="27" selection-start-line="79" selection-start-column="27" selection-end-line="79" selection-end-column="27" />
+          <folding>
+            <element signature="e#1996#1997#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MVC/Model/ObjectsModel/ChickenGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="45" column="12" selection-start-line="45" selection-start-column="12" selection-end-line="48" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2860#2861#0" expanded="true" />
+            <element signature="e#2918#2919#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MVC/Model/GameModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7361">
+          <caret line="441" column="8" selection-start-line="441" selection-start-column="8" selection-end-line="441" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MVC/View/jPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2480#2481#0" expanded="true" />
+            <element signature="e#2532#2533#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MVC/View/PaintView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="60" column="13" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#bullet#0;class#PaintView#0" />
+            <element signature="method#coin#0;class#PaintView#0" />
+            <element signature="method#egg#0;class#PaintView#0" />
+            <element signature="method#gift#0;class#PaintView#0" />
+            <element signature="method#powerup#0;class#PaintView#0" />
+            <element signature="method#message#0;class#PaintView#0" />
+            <element signature="method#rocket#0;class#PaintView#0" />
+            <element signature="method#background#0;class#PaintView#0" />
+            <element signature="method#justABox#0;class#PaintView#0" />
+            <element signature="method#userPreviewer#0;class#PaintView#0" />
+            <element signature="method#statusBox#0;class#PaintView#0" />
+            <element signature="method#tempBar#0;class#PaintView#0" />
+            <element signature="method#exp#0;class#PaintView#0" />
+            <element signature="method#button#0;class#PaintView#0" />
+            <element signature="method#textfield#0;class#PaintView#0" />
+            <element signature="method#numberField#0;class#PaintView#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MVC/Controller/GameServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="144" column="28" selection-start-line="144" selection-start-column="28" selection-end-line="144" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MVC/Controller/testtt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="64" column="22" lean-forward="true" selection-end-line="130" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/MVC/Controller/ReadAndWrite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="89" column="33" lean-forward="true" selection-start-line="89" selection-start-column="33" selection-end-line="89" selection-end-column="33" />
+        <state relative-caret-position="-146">
+          <caret line="58" column="36" selection-start-line="58" selection-start-column="12" selection-end-line="58" selection-end-column="36" />
+          <folding>
+            <element signature="e#4981#4982#0" expanded="true" />
+            <element signature="e#5018#5019#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -3,17 +3,18 @@ package MVC.Controller;
 import Commens.BufferedFiles;
 import Commens.Constants;
 import MVC.Model.GameModel;
+import MVC.Model.ObjectsModel.AbstractHomeMadeChickenGroup;
 import MVC.Model.Interfaces.Clockable;
 import MVC.Model.ObjectsModel.*;
 import MVC.Model.User;
 
+import javax.swing.*;
 import java.awt.*;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.lang.reflect.InvocationTargetException;
-import java.net.ServerSocket;
-import java.net.Socket;
+import java.net.*;
 import java.util.ArrayList;
 
 
@@ -25,6 +26,7 @@ class GameServer {
     private int maximumClients=1;
     private int numberOfWaves;
     private int playingWave = 0;
+    private ArrayList<Class> homeMadeChickenGroupQueue= new ArrayList<>();
 
     GameServer(int port){
         this.port=port;
@@ -275,6 +277,9 @@ class GameServer {
                 numberFieldObject.updateText(keychar);
             }
         }
+        if(keychar=='o' && (model.page==2||model.page==3)){
+             homeMadeChickenGroupQueue.add(getTheClass());
+        }
     }
 
     private void Control () {
@@ -317,7 +322,8 @@ class GameServer {
                         if(playingWave>=numberOfWaves) {
                             viewCongrats();
                         }else {
-                            model.add(newChickenGroup());
+                            addNewChickenGroup();
+//                            model.add(newChickenGroup());
                         }
                     }
                     if (clockable.getClass() == RocketObject.class) {
@@ -677,7 +683,8 @@ class GameServer {
 //            model.setJustWave(model.getUser(0).getWaveToResum());
         }
         model.page=2;
-        model.add(newChickenGroup());
+        addNewChickenGroup();
+//        model.add(newChickenGroup());
     }
 
     public void choosePlayer(){
@@ -893,10 +900,74 @@ class GameServer {
         ReadAndWrite.WriteUsersToDB(model.getUsers());
     }
 
-    private ChickenGroup newChickenGroup(){
-        if(playingWave==numberOfWaves-1){
-            return new ChickenGroup(1,5,-1,5,clientHandlers.size());
+    private void addNewChickenGroup(){
+        if (homeMadeChickenGroupQueue.size()!=0){
+            Class newGroup=homeMadeChickenGroupQueue.get(0);
+            homeMadeChickenGroupQueue.remove(0);
+            try {
+                 model.add((AbstractHomeMadeChickenGroup) newGroup.getConstructor().newInstance());
+            } catch (InstantiationException | NoSuchMethodException | InvocationTargetException | IllegalAccessException e) {
+                e.printStackTrace();
+            }
+            return;
         }
-        return new ChickenGroup(playingWave%5==4 ? 1 : (int) (4*Math.sqrt(playingWave)+10),playingWave%5+1 , playingWave+1 ,1,clientHandlers.size());
+        if(playingWave==numberOfWaves-1){
+            model.add( new ChickenGroup(1,5,-1,5,clientHandlers.size()));
+            return;
+        }
+        model.add( new ChickenGroup(playingWave%5==4 ? 1 : (int) (4*Math.sqrt(playingWave)+10),playingWave%5+1 , playingWave+1 ,1,clientHandlers.size()));
+    }
+
+    private Class getTheClass() {
+        pause();
+        JFileChooser fileChooser = new JFileChooser();
+//        Frame frame = null;
+//        for (Frame fra :Frame.getFrames()) {
+//            frame=fra;
+//        }
+//        JFrame ch=new JFrame();
+//        ch.setSize(100,100);
+//        fileChooser.setVisible(true);
+//        fileChooser.setFocusable(true);
+//        fileChooser.requestFocus();
+        fileChooser.showDialog(Window.getWindows()[0],"open the wave data");
+        System.out.println("done");
+        if (fileChooser.getSelectedFile() != null) {
+            String path = fileChooser.getSelectedFile().getPath();
+            System.out.println(path);
+            String name = fileChooser.getSelectedFile().getName();
+            System.out.println(name);
+            for(int i=0;i<path.length();i++){
+                if(path.charAt(i) == '\\'){
+                    path = path.substring(0,i)+"/"+path.substring(i+1);
+                }
+            }
+            path = "file:///"+path;
+            System.out.println(path);
+            ClassLoader cl = null;
+            try {
+                cl = new URLClassLoader(new URL[]{new URL(path)});
+            } catch (MalformedURLException e) {
+                e.printStackTrace();
+            }
+
+//
+//            // Getting the jar URL which contains target class
+//            URL[] classLoaderUrls = new URL[]{new URL()};
+//
+//            // Create a new URLClassLoader
+//            URLClassLoader urlClassLoader = new URLClassLoader(classLoaderUrls);
+
+
+            try {
+                pause();
+                return cl.loadClass(name.substring(0, name.length() - 6));
+            } catch (ClassNotFoundException e) {
+                e.printStackTrace();
+            }
+//                gameServer.getNewMonstersClasses().add(monsterClass);
+        }
+        pause();
+        return null;
     }
 }

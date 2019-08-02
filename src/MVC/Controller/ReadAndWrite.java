@@ -49,9 +49,17 @@ class ReadAndWrite {
     }
 
     static void WriteUsersToDB(ArrayList<User> users) {
+        Connection connection;
+        Statement statement;
         try {
-            Connection connection=getConnection();
-            Statement statement = connection.createStatement();
+            connection = getConnection();
+            statement = connection.createStatement();
+        } catch (SQLException e) {
+            System.out.println("Data base failure");
+            WriteUsersToFile(users);
+            return;
+        }
+        try {
             statement.executeUpdate("delete from Users where 1");
             for (User user:users) {
 //                statement.executeUpdate("insert into Users values('john',1,0,0,0,0,0,0,false ,0,0)");
@@ -60,9 +68,8 @@ class ReadAndWrite {
             }
             connection.close();
         } catch (SQLException e) {
-            System.out.println("Data base failure");
-//            e.printStackTrace();
-            WriteUsersToFile(users);
+            System.out.println("creating new table");
+            makeNewTable(statement);
         }
 
 //        statement.executeUpdate("update courses set course_name = CONCAT(course_name,'-') where course_name like '%s'");
@@ -93,18 +100,26 @@ class ReadAndWrite {
 
     static ArrayList<User> ReadUsersFromDB() {
         ArrayList<User> users= new ArrayList<>();
+        Connection connection;
+        Statement statement;
         try {
-            Connection connection=getConnection();
-            Statement statement = connection.createStatement();
+            connection = getConnection();
+            statement = connection.createStatement();
+        } catch (SQLException e) {
+//            e.printStackTrace();
+            System.out.println("Data base failure");
+            users.addAll(ReadUsersFromFile());
+            return users;
+        }
+        try {
             ResultSet resultSet = statement.executeQuery("select * from Users");
             while (resultSet.next()){
                 users.add(new User(resultSet.getString(1),resultSet.getInt(2),resultSet.getInt(3),resultSet.getInt(4),resultSet.getInt(5),resultSet.getInt(6),resultSet.getInt(7),resultSet.getInt(8),resultSet.getBoolean(9),resultSet.getInt(10),resultSet.getInt(11)));
             }
             connection.close();
         } catch (SQLException e) {
-//            e.printStackTrace();
-            System.out.println("Data base failure");
-            users.addAll(ReadUsersFromFile());
+            makeNewTable(statement);
+            System.out.println("creating new table");
         }
         return users;
     }
@@ -113,6 +128,26 @@ class ReadAndWrite {
         return DriverManager.getConnection("jdbc:mysql://localhost:3306/chickenInvaders2DB","root","");
     }
 
+    private static void makeNewTable (Statement statement){
+        try {
+            statement.execute(
+                    "CREATE TABLE Users (\n" +
+                    "    username Text ,\n" +
+                    "    score int ,\n" +
+                    "    wave int ,\n" +
+                    "    rocket int ,\n" +
+                    "    life int ,\n" +
+                    "    bulletType int ,\n" +
+                    "    powerUp int ,\n" +
+                    "    coin int ,\n" +
+                    "    resume int ,\n" +
+                    "    waveToResume int ,\n" +
+                    "    clock int \n" +
+                    ");");
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
     private static void log(String s){
         System.out.println(s);
     }
